@@ -1,0 +1,19 @@
+Package: TwoWayANCOVA
+Type: Package
+Title: Find MLEs and test statistic and critical values of LRT, TM and TN. 
+       This package also gives simultaneous confidence intervals for differences
+       of successive treatment effects 
+       effects.
+Version: 0.1.0
+Author: Anjana Mondal
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package finds test statistic value and corresponding critical value of parametric bootstrap based Likelihood ratio test,
+            two simltaneous tests TN and TM for testing equality of row effects against ordered alternatives in two-way ANCOVA model without interaction and
+           with heteroscedasticity. It also finds maximum likelihood estimators of parameters of a two-way ANCOVA model (without interaction) in two cases: 
+           (i) treatment effects of one factor are equal and (ii) treatment  effects of one factor are in simple order restrictions.
+           Further, it finds simultaneous confidence intervals for differences of successive treatment effects.
+License: GPL-2
+Encoding: UTF-8
+Depends: Iso
+LazyData: true
+RoxygenNote: 7.2.3

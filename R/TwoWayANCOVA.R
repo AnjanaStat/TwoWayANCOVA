@@ -1,0 +1,13 @@
+#' Find test statistic value from a given data set and corresponding critical value
+#'
+#' This package finds test statistic value and corresponding critical value of parametric bootstrap based Likelihood ratio test
+#'  for testing equality of row effects against ordered alternatives in two-way ANCOVA model without interaction and
+#'   with heteroscedasticity.
+#'  It also finds maximum likelihood estimators of parameters of a two-way ANCOVA model (without interaction) in two cases: (i) treatment effects
+#'  of one factor are equal and (ii) treatment  effects of one factor are in simple order restrictions.
+#' @docType package
+#'
+#' @author Anjana Mondal \email{mondal.anjana25@gmail.com}
+#'
+#' @name TwoWayANCOVA
+NULL
